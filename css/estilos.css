@@ -94,6 +94,11 @@ body {
     box-shadow: 0.2rem 0.2rem 0.6rem black;
     margin: 0 auto;
     margin-bottom: 4rem;
+    transition: 1s;
+}
+
+.cardmateria:hover {
+    transform: scale(1.1);
 }
 
 .imgmateria {
