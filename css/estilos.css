@@ -2,7 +2,7 @@ body {
     background-color: #4CA649;
 }
 
-.navbar {
+.nav1 {
     background-color: black;
     padding: 3rem;
 }
@@ -76,7 +76,7 @@ body {
 
 /*FIN SIDEBAR*/
 
-.navbar2 {
+.nav2 {
     background-color: #4CA649;
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 .materiasactivas {
-    margin-top: 1.5rem;
+    margin-top: 4.5rem;
     margin-bottom: 2.5rem;
 }
 
