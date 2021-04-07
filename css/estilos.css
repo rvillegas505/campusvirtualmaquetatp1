@@ -1,0 +1,103 @@
+body {
+    background-color: #4CA649;
+}
+
+.navbar {
+    background-color: black;
+    padding: 3rem;
+}
+
+.contenedorlogin {
+    margin-top: 10%;
+}
+
+.card {
+    width: auto;
+    box-shadow: 0.2rem 0.2rem 0.6rem black;
+}
+
+.seplogincard {
+    margin-top: 2rem;
+}
+
+.olvidecontrasena {
+    margin-bottom: 1.5rem;
+}
+
+
+/*Interna.html*/
+
+
+/*Sidebar*/
+
+#wrapper {
+    overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+
+
+/*FIN SIDEBAR*/
+
+.navbar2 {
+    background-color: #4CA649;
+}
+
+.seccioninterna {
+    background-color: white;
+}
+
+.materiasactivas {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.cardmateria {
+    width: 15rem;
+    box-shadow: 0.2rem 0.2rem 0.6rem black;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.imgmateria {
+    margin: 0 auto;
+    height: 15rem;
+    width: 15rem;
+}
