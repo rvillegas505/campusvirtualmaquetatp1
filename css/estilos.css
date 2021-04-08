@@ -24,6 +24,12 @@ body {
     margin-bottom: 1.5rem;
 }
 
+@media (max-width: 380px) {
+    .logoclasslogin {
+        width: 17rem;
+    }
+}
+
 
 /*-----------------------------------*/
 
