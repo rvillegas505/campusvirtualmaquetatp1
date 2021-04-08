@@ -25,6 +25,9 @@ body {
 }
 
 
+/*-----------------------------------*/
+
+
 /*Interna.html*/
 
 
@@ -73,6 +76,10 @@ body {
     }
 }
 
+.wordside {
+    color: white;
+}
+
 
 /*FIN SIDEBAR*/
 
@@ -85,8 +92,7 @@ body {
 }
 
 .materiasactivas {
-    margin-top: 4.5rem;
-    margin-bottom: 2.5rem;
+    margin: 5rem auto 2.5rem auto;
 }
 
 .cardmateria {

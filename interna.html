@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miel - Materias</title>
+    <link rel="icon" href="img/iconounlam.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
 
@@ -17,12 +18,12 @@
 
     <div class="d-flex seccioninterna" id="wrapper">
         <!-- sidebar -->
-        <div class="bg-light border-right" id="sidebar-wrapper">
-            <div class="sidebar-heading">Servicios</div>
+        <div class="bg-dark border-right" id="sidebar-wrapper">
+            <div class="sidebar-heading bg-dark">Servicios</div>
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action bg-light">Calendario</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Preguntas Frecuentes</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Turnos Biblioteca</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark wordside">Calendario</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark wordside">Preguntas Frecuentes</a>
+                <a href="#" class="list-group-item list-group-item-action bg-dark wordside">Turnos Biblioteca</a>
             </div>
         </div>
 
@@ -78,7 +79,7 @@
                             <div class="cardmateria">
                                 <img src="img/programacion.jpg" class="card-img-top imgmateria" alt="programacion">
                                 <div class="card-body">
-                                    <h5 class="card-title nombrecard">Progamacion</h5>
+                                    <h5 class="card-title nombrecard">Programacion</h5>
                                     <div class="list-group list-group-flush">
                                         <a href="#" class="list-group-item list-group-item-action bg-light">Contenidos</a>
                                         <a href="#" class="list-group-item list-group-item-action bg-light">Practicas</a>
@@ -157,12 +158,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
     <!-- Menu Toggle Script -->
-    <script>
-        $("#menu-toggle").click(function(e) {
-            e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
-        });
-    </script>
+
+    <script src="js/serviciostoggle.js"></script>
+
 </body>
 
 </html>
