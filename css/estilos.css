@@ -93,6 +93,24 @@ body {
     background-color: #4CA649;
 }
 
+@media (max-width: 300px) {
+    .logoclassmateria {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .logoclassmateria {
+        width: 5rem;
+    }
+}
+
+@media (max-width: 315px) {
+    .logoclassmateria {
+        width: 3rem;
+    }
+}
+
 .seccioninterna {
     background-color: white;
 }
