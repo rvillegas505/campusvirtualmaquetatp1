@@ -103,6 +103,16 @@ body {
     transition: 1s;
 }
 
+.nombrecard {
+    font-weight: 600;
+}
+
+.iconcard {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.2rem;
+}
+
 .cardmateria:hover {
     transform: scale(1.1);
 }
