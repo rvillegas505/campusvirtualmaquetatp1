@@ -127,6 +127,12 @@ body {
     transition: 1s;
 }
 
+@media (max-width:265px) {
+    .cardmateria {
+        width: 10rem;
+    }
+}
+
 .nombrecard {
     font-weight: 600;
 }
@@ -145,4 +151,11 @@ body {
     margin: 0 auto;
     height: 15rem;
     width: 15rem;
+}
+
+@media (max-width:265px) {
+    .imgmateria {
+        height: 10rem;
+        width: 10rem;
+    }
 }
